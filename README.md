@@ -1,2 +1,16 @@
 # helloQlik
-Simple express server connects to Qlik Sense server with enigma.js to manipulate and get data from an app.
+Connects to Qlik Sense server, from an Express.js server, using enigma.js. Using Qlik Engine APIs to open app, get fields, variables and objects.
+1. Express.js
+2. Enigma.js - A library to make a concnection to Qlik Sense engine
+  Authentication using cerificates. You can also use JWT or ticket authentication. See runnable examples here: LINK
+3. Qlik Engine API
+  openDoc
+  getField
+  getLayout
+  getObject
+  getVariableByName
+4. Printing API - not documented, recreated the way it is done under the 'exportImg' capability API method
+  GetEffectiveProperties
+  POST to QSSERVER/VP/printing/export/image?requestId=xxx-yyy-zzz-123-456
+  Check image status with GET from QSSERVER/VP/printing/export/image?requestId=xxx-yyy-zzz-123-456
+  Once status is 'Completed', use callback url to download image
