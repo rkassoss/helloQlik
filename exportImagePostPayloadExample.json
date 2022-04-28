@@ -1,0 +1,101 @@
+{
+    "imageType": "Png",
+    "captureSize": {
+        "width": 745,
+        "height": 189,
+        "dpi": 96
+    },
+    "objTree": {
+        "id": "RxUXtK",
+        "type": "piechart",
+        "snapshotData": "{\"data\":{\"qInfo\":{\"qId\":\"CcZwfj\",\"qType\":\"piechart\"},\"qMeta\":{\"privileges\":[\"read\",\"update\",\"delete\",\"exportdata\"]},\"qSelectionInfo\":{},\"qStateName\":\"$\",\"qHyperCube\":{\"qStateName\":\"$\",\"qSize\":{\"qcx\":2,\"qcy\":7},\"qDimensionInfo\":[{\"qFallbackTitle\":\"Actions\",\"qApprMaxGlyphCount\":8,\"qCardinal\":7,\"qSortIndicator\":\"A\",\"qGroupFallbackTitles\":[\"Actions\"],\"qGroupPos\":0,\"qStateCounts\":{\"qLocked\":0,\"qSelected\":0,\"qOption\":7,\"qDeselected\":0,\"qAlternative\":0,\"qExcluded\":0,\"qSelectedExcluded\":0,\"qLockedExcluded\":0},\"qTags\":[\"$ascii\",\"$text\"],\"qDimensionType\":\"D\",\"qGrouping\":\"N\",\"qNumFormat\":{\"qType\":\"U\",\"qnDec\":0,\"qUseThou\":0},\"qIsAutoFormat\":true,\"qGroupFieldDefs\":[\"=Actions\"],\"qMin\":\"NaN\",\"qMax\":\"NaN\",\"qAttrExprInfo\":[{\"qMin\":\"NaN\",\"qMax\":\"NaN\",\"qFallbackTitle\":\"=ActionsTooltip\",\"qNumFormat\":{\"qType\":\"U\",\"qnDec\":0,\"qUseThou\":0},\"qIsAutoFormat\":true,\"cId\":\"kmmHJhW\",\"autoSort\":true,\"id\":\"customTooltipDescription\"}],\"qAttrDimInfo\":[{\"qCardinal\":7,\"qSize\":{\"qcx\":2,\"qcy\":7},\"qFallbackTitle\":\"Actions\",\"id\":\"colorByAlternative\",\"colorMapRef\":\"kwWrjkr\"}],\"qCardinalities\":{\"qCardinal\":7,\"qHypercubeCardinal\":7,\"qAllValuesCardinal\":-1},\"qLibraryId\":\"kwWrjkr\",\"title\":\"Actions\",\"coloring\":{\"changeHash\":\"0.4101734176281093\",\"colorMapRef\":\"kwWrjkr\"},\"autoSort\":true,\"cId\":\"ZhyQda\",\"othersLabel\":\"Others\"}],\"qMeasureInfo\":[{\"qFallbackTitle\":\"Share - Selected\",\"qApprMaxGlyphCount\":4,\"qCardinal\":0,\"qSortIndicator\":\"D\",\"qNumFormat\":{\"qType\":\"F\",\"qnDec\":2,\"qUseThou\":0,\"qFmt\":\"0%\",\"qDec\":\".\",\"qThou\":\",\"},\"qMin\":0.05807926829268293,\"qMax\":0.22865853658536586,\"qAttrExprInfo\":[],\"qAttrDimInfo\":[],\"qLibraryId\":\"2779a6cd-1b75-47f9-adbc-e6edde1337c8\",\"qTrendLines\":[],\"coloring\":{},\"autoSort\":true,\"cId\":\"zhhkEj\",\"numFormatFromTemplate\":true,\"isCustomFormatted\":false}],\"qEffectiveInterColumnSortOrder\":[1,0],\"qGrandTotalRow\":[{\"qText\":\"100%\",\"qNum\":1,\"qElemNumber\":-1,\"qState\":\"X\",\"qIsTotalCell\":true}],\"qDataPages\":[{\"qMatrix\":[[{\"qText\":\"Social\",\"qNum\":\"NaN\",\"qElemNumber\":5,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Social - Use of deception or manipulation to exploit humans ex. phishing, blackmail, etc.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Social\",\"qElemNo\":5}]}},{\"qText\":\"23%\",\"qNum\":0.22865853658536586,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Malware\",\"qNum\":\"NaN\",\"qElemNumber\":0,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Malware - Malicous Software ex. ransomware, viruses, worms, etc.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Malware\",\"qElemNo\":0}]}},{\"qText\":\"20%\",\"qNum\":0.19740853658536586,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Hacking\",\"qNum\":\"NaN\",\"qElemNumber\":2,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Hacking - Intentional access to assets without authorization by expointing security mechanisms ex. brute force, DDos, etc.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Hacking\",\"qElemNo\":2}]}},{\"qText\":\"19%\",\"qNum\":0.19146341463414634,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Error\",\"qNum\":\"NaN\",\"qElemNumber\":3,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Error - Anything done inadvertently or incorrectly ex. lost devices, misconfigurations and programming errors.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Error\",\"qElemNo\":3}]}},{\"qText\":\"16%\",\"qNum\":0.16021341463414634,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Misuse\",\"qNum\":\"NaN\",\"qElemNumber\":1,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Misuse - Use of resources or privileges for non-approved uses ex. Administrative abuse, privacy violations, etc.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Misuse\",\"qElemNo\":1}]}},{\"qText\":\"9%\",\"qNum\":0.08887195121951219,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Unknown\",\"qNum\":\"NaN\",\"qElemNumber\":4,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Unknown - Applies to those instances where it is unknown what caused a cyber incident\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Unknown\",\"qElemNo\":4}]}},{\"qText\":\"8%\",\"qNum\":0.07530487804878049,\"qElemNumber\":0,\"qState\":\"L\"}],[{\"qText\":\"Physical\",\"qNum\":\"NaN\",\"qElemNumber\":6,\"qState\":\"O\",\"qAttrExps\":{\"qValues\":[{\"qText\":\"Physical - Theft, tampering, snooping, etc.\",\"qNum\":\"NaN\"}]},\"qAttrDims\":{\"qValues\":[{\"qText\":\"Physical\",\"qElemNo\":6}]}},{\"qText\":\"6%\",\"qNum\":0.05807926829268293,\"qElemNumber\":0,\"qState\":\"L\"}]],\"qTails\":[{\"qUp\":0,\"qDown\":0}],\"qArea\":{\"qLeft\":0,\"qTop\":0,\"qWidth\":2,\"qHeight\":7}}],\"qPivotDataPages\":[],\"qStackedDataPages\":[],\"qMode\":\"S\",\"qNoOfLeftDims\":-1,\"qTreeNodesOnDim\":[],\"qColumnOrder\":[],\"customErrorMessage\":{\"calcCond\":\"Unable to provide meaningful insight based on your selections\"}},\"showTitles\":true,\"title\":\"Actions Causing Cyber Incidents Since 2009\",\"subtitle\":\"Global, All Industries and  All Revenue Sizes\",\"footnote\":\"\",\"showDetails\":false,\"donut\":{\"showAsDonut\":false},\"dimensionTitle\":false,\"dataPoint\":{\"auto\":false,\"labelMode\":\"value\",\"labelValueMode\":\"arc\"},\"color\":{\"auto\":false,\"mode\":\"byDimension\",\"useBaseColors\":\"off\",\"paletteColor\":{\"index\":6},\"useDimColVal\":true,\"useMeasureGradient\":true,\"persistent\":false,\"expressionIsColor\":true,\"expressionLabel\":\"\",\"measureScheme\":\"sg\",\"reverseScheme\":false,\"dimensionScheme\":\"12\",\"autoMinMax\":true,\"measureMin\":0,\"measureMax\":10,\"singleColor\":3,\"altLabel\":\"kwWrjkr\",\"byMeasureDef\":{\"label\":\"unNFhpK\",\"key\":\"unNFhpK\",\"type\":\"libraryItem\"},\"byDimDef\":{\"label\":\"kwWrjkr\",\"key\":\"kwWrjkr\",\"type\":\"libraryItem\",\"activeDimensionIndex\":0}},\"legend\":{\"show\":false,\"dock\":\"auto\",\"showTitle\":false},\"visualization\":\"piechart\",\"masterVersion\":0.96,\"metadata\":{},\"tooltip\":{\"auto\":false,\"title\":\"\",\"description\":\"-\"},\"snapshotData\":{\"object\":{\"size\":{\"w\":745,\"h\":189}},\"rtl\":false,\"content\":{\"size\":{\"w\":744.5,\"h\":142.453125},\"chartData\":{\"rotation\":0,\"dimValsData\":{\"colors\":[{\"value\":\"Hacking\",\"baseColor\":{\"color\":\"#150f96\",\"index\":-1}},{\"value\":\"Malware\",\"baseColor\":{\"color\":\"#01c1d6\",\"index\":-1}},{\"value\":\"Misuse\",\"baseColor\":{\"color\":\"#4b4e53\",\"index\":-1}},{\"value\":\"Na\",\"baseColor\":{\"color\":\"#ffb617\",\"index\":-1}},{\"value\":\"Physical\",\"baseColor\":{\"color\":\"#ff0198\",\"index\":-1}},{\"value\":\"Social\",\"baseColor\":{\"color\":\"#f1352b\",\"index\":-1}},{\"value\":\"Unknown\",\"baseColor\":{\"color\":\"#afafaf\",\"index\":-1}},{\"value\":\"Error\",\"baseColor\":{\"color\":\"#7acb00\",\"index\":-1}},{\"value\":\"N/A\",\"baseColor\":{\"color\":\"#f0b615\",\"index\":-1}}],\"nul\":null,\"oth\":null,\"pal\":null,\"single\":null,\"usePal\":true,\"autoFill\":true}}},\"parent\":{\"h\":849,\"w\":1519}},\"visualizationType\":\"piechart\",\"sourceObjectId\":\"RxUXtK\",\"sheetId\":\"ded414ba-a3c5-4912-b8eb-0db4de3a32b7\",\"timestamp\":1651003954395,\"isClone\":false,\"qMetaDef\":{\"title\":\"Actions Causing Cyber Incidents Since 2009\"},\"supportExport\":true},\"appLocaleInfo\":{\"qDecimalSep\":\".\",\"qThousandSep\":\",\",\"qListSep\":\";\",\"qMoneyDecimalSep\":\".\",\"qMoneyThousandSep\":\",\",\"qCurrentYear\":2019,\"qMoneyFmt\":\"$#,##0.00;-$#,##0.00\",\"qTimeFmt\":\"h:mm:ss TT\",\"qDateFmt\":\"M/D/YYYY\",\"qTimestampFmt\":\"M/D/YYYY h:mm:ss[.fff] TT\",\"qCalendarStrings\":{\"qDayNames\":[\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"],\"qMonthNames\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"],\"qLongDayNames\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\",\"Sunday\"],\"qLongMonthNames\":[\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"]},\"qFirstWeekDay\":6,\"qBrokenWeeks\":true,\"qReferenceDay\":0,\"qFirstMonthOfYear\":1,\"qCollation\":\"en-US\",\"qNumericalAbbreviation\":\"3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y\"},\"language\":\"en-US\"}",
+        "area": {
+            "left": 0,
+            "top": 0,
+            "width": 1,
+            "height": 1
+        },
+        "children": [],
+        "isExtension": false,
+        "title": "Actions Causing Cyber Incidents Since 2009"
+    },
+    "appName": "Cyber Index V3 - UI(1)",
+    "appId": "a312be85-bf7b-4dae-99da-83a03e936b8b",
+    "appStylingInfo": {
+        "sheetLogoPosition": "",
+        "sheetLogoThumbnail": {
+            "qStaticContentUrl": {}
+        },
+        "sheetTitleBgColor": "",
+        "sheetTitleColor": "",
+        "sheetTitleGradientColor": "",
+        "rtl": false
+    },
+    "localeInfo": {
+        "qDecimalSep": ".",
+        "qThousandSep": ",",
+        "qListSep": ";",
+        "qMoneyDecimalSep": ".",
+        "qMoneyThousandSep": ",",
+        "qCurrentYear": 2019,
+        "qMoneyFmt": "$#,##0.00;-$#,##0.00",
+        "qTimeFmt": "h:mm:ss TT",
+        "qDateFmt": "M/D/YYYY",
+        "qTimestampFmt": "M/D/YYYY h:mm:ss[.fff] TT",
+        "qCalendarStrings": {
+            "qDayNames": [
+                "Mon",
+                "Tue",
+                "Wed",
+                "Thu",
+                "Fri",
+                "Sat",
+                "Sun"
+            ],
+            "qMonthNames": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+            ],
+            "qLongDayNames": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "qLongMonthNames": [
+                "January",
+                "February",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "August",
+                "September",
+                "October",
+                "November",
+                "December"
+            ]
+        },
+        "qFirstWeekDay": 6,
+        "qBrokenWeeks": true,
+        "qReferenceDay": 0,
+        "qFirstMonthOfYear": 1,
+        "qCollation": "en-US",
+        "qNumericalAbbreviation": "3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y"
+    },
+    "themeName": "sense"
+}
