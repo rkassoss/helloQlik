@@ -175,9 +175,11 @@ router.get('/', function(req, res, next) {
             "qId": "RxUXtK"
           }).then(o => {
             console.log("got object");
-                  // no api available, redo the printing feature in sense:
-                  // 1. get object 'getEffectiveProperties' to pass to printing service
+
             o.getEffectiveProperties().then(props => {
+                // QS printing feature is not exposed on the engine level. There is no documented way of printing a chart
+                // An attempt to recreate the 'exportPng' capability API method below:
+                // 1. get object 'getEffectiveProperties' to pass to printing service
               console.log('props ID is: ', props);
               var payload = {
                 "imageType": "Png",
